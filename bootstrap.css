@@ -132,6 +132,7 @@ sub {
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
+  width: 345px;
 }
 button,
 input,
@@ -2359,5 +2360,38 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+
+.thumbnail {
+  margin-bottom: 20px;
+}
+
+#content {
+  margin-top: 20px;
+}
+
+#info {
+  float: right;
+  margin-right: 5em;
+  font-size: 1.3em;
+}
+
+#info ul li {
+  margin-bottom: 1.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+#about {
+  font-size: 1.6em;
+  line-height: 1.2em;
+  padding-right: 2.5em;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
 }
 
